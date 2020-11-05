@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculadora</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+		<div class="container">
+			<div class="linha corredor-resultado">
+				<input id="tela">
+			</div>
+
+			<div class="linha terceiro-corredor">
+				<h1 class="num sete" onclick="inserir(7)">7</h1>
+		
+				<h1 class="num oito" onclick="inserir(8)">8</h1>
+
+				<h1 class="num nove" onclick="inserir(9)">9</h1>
+				
+				<h2 class="op divisão" onclick="inserir('/')"> / </h2>
+			</div>
+			
+			<div class="linha segundo-corredor">
+					<h1 class="num quatro" onclick="inserir(4)">4</h1>
+
+					<h1 class="num cinco" onclick="inserir(5)">5</h1>
+
+					<h1 class="num seis" onclick="inserir(6)">6</h1>
+
+					<h2 class="op vezes" onclick="inserir('*')">x</h2>
+			</div>
+
+			<div class="linha primeiro-corredor">
+					<h1 class="num um" onclick="inserir(1)">1</h1>
+
+					<h1 class="num dois" onclick="inserir(2)">2</h1>
+
+					<h1 class="num tres" onclick="inserir(3)">3</h1>
+
+					<h2 class="op menos" onclick="inserir('-')">-</h2>
+			</div>
+
+			<div class="linha quarto-corredor">
+					<h1 class="num zero" onclick="inserir(0)">0</h1>
+	
+					<h1 class="op ponto" onclick="inserir('.')">. </h1>
+							
+					<h2 class="igual" onclick="igual()">=</h1>
+					
+					<h2 class="op mais" onclick="inserir('+')">+</h2>			
+			</div>
+
+			<div class="linha quinto-corredor">
+					<button class="limpar" onclick="limpartela()">Limpar</button>
+
+					<button id="deletar" onclick="deletar()">Deletar</button>			
+			</div>
+
+			
+				
+		</div>
+
+<script src="script.js"></script>
+</body>
+</html>

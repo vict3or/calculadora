@@ -1,0 +1,44 @@
+body{
+	background-image: url("https://image.freepik.com/fotos-gratis/divorcio-do-giz-em-um-quadro-negro-fundo-de-quadro-de-giz-para-yo_84485-97.jpg");
+}
+.linha{
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.container{
+ 	padding: 10em 5em 5em; 
+ 	width: 300px;
+ 	margin: auto;
+}
+
+ #deletar, .limpar, .ponto, .zero, .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .mais, .menos, .vezes, .divisão, .igual, #tela{
+  height: 1em; 
+  color:#ecded9;
+  padding: 0.6em;
+  border: solid #ecded9 3px;
+  margin:3px ;
+  font-family: gotham Rounded, sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+  flex:1;
+  text-align: center;
+}
+#deletar:hover, .limpar:hover,.ponto:hover, .zero:hover, .um:hover, .dois:hover, .tres:hover, .quatro:hover, .cinco:hover, .seis:hover, .sete:hover, .oito:hover, .nove:hover, .mais:hover, .menos:hover, .vezes:hover, .divisão:hover, .igual:hover{
+  transform:scale(1.1,1.1);
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  pointer-events: painted;
+ } 
+
+#tela{
+  color: white;
+  background-color:transparent;
+}
+
+.limpar, #deletar{
+  padding-bottom: 2.5rem;
+  background-color:transparent;
+}
