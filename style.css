@@ -43,3 +43,9 @@ body{
   padding-bottom: 2.5rem;
   background-color:transparent;
 }
+
+@media (max-width: 1000px){
+  #tela{
+    padding: 0.8em;
+  }
+}
