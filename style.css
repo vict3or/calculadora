@@ -45,6 +45,11 @@ body{
 }
 
 @media (max-width: 1000px){
+.container{
+ 	padding:1rem;
+ 	padding-top: 7rem;
+
+}
   #tela{
     padding: 0.8em;
   }
